@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    flex: 1 0 550px;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.c-header {
+    padding-top: 24px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-left: 24px;
+    font-weight: 300;
+}
+
+/* content */
+
+.content {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    /* padding: 140px 0; */
+}
+
+.c-content {
+    display: flex;
+    align-items: center;
+}
+
+.con-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.occu {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 12px;
+}
+
+.par {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+
+.button {
+    background-color: #3882f6;
+    font-weight: 700;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-style: none;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.image {
+    width: 100%;
+}
+
+/* cards */
+
+.content-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cards {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 36px;
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    position: relative;;
+}
+
+.con-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rectangle {
+    border: 5px solid #3882f6;
+    width: 175px;
+    height: 175px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.little-c-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.par-quo {
+    width: 100%;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+
+.possessor {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex: 3 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up {
+    background-color: #3882f6;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 45px 0;
+}
+
+.c-pop-up {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pop-up-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.alert {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.par-ale {
+    color:#e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.but-ale {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    padding: 6px 24px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bottom {
+    flex: 1 0 auto;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy {
+    font-size: 18px;
+    font-weight: 300;
+    color:#e5e7eb;
+
+}
